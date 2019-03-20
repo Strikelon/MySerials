@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    tools:context=".View.AddSerialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_name"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_section"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_season"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_season"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_series"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_series"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_link"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_status"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_note"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_serial_rating"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:textColorHint="@color/colorTurquoise">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/add_serial_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:inputType="numberDecimal"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/add_serial_button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_serial_button_save"/>
+
+    </LinearLayout>
+
+</ScrollView>

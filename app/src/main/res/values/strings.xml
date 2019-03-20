@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MySerials</string>
+
+    <string name="add_serial_name">Название</string>
+    <string name="add_serial_section">Раздел</string>
+    <string name="add_serial_season">Сезон</string>
+    <string name="add_serial_series">Серия</string>
+    <string name="add_serial_link">Ссылка</string>
+    <string name="add_serial_status">Статус</string>
+    <string name="add_serial_note">Заметка</string>
+    <string name="add_serial_rating">Рейтинг</string>
+    <string name="add_serial_button_save">Сохранить</string>
+    <string name="serial_name_is_empty">Поле Название должно быть заполнено</string>
+    <string name="serial_season_is_not_digit">Значение поля Сезон должно быть числом</string>
+    <string name="serial_series_is_not_digit">Значение поля Серия должно быть числом</string>
+    <string name="serial_rating_is_not_digit">Значение поля Рейтинг должно быть числом</string>
+    <string name="serial_successfully_saved">Сериал успешно сохранен</string>
+
+</resources>
