@@ -1,6 +1,7 @@
-package com.strikalov.myserials.DataBase.SerialRating.CategoryRating;
+package com.strikalov.myserials.DataBase.SerialRating;
 
 import com.strikalov.myserials.DataBase.SerialRating.AbstractSerialRating;
+import com.strikalov.myserials.DataBase.SerialRating.CategoryRating.CategoryRating;
 
 public class AverageSerialRating extends AbstractSerialRating {
 
