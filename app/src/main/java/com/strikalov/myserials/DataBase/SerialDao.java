@@ -27,4 +27,6 @@ public interface SerialDao {
     @Delete
     int delete(Serial serial);
 
+    @Query("SELECT * FROM serial where id = :serialId")
+    Serial getById(Long serialId);
 }

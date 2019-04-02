@@ -10,6 +10,13 @@ import io.reactivex.observers.DisposableMaybeObserver;
 public interface Model {
 
     void loadData(DisposableMaybeObserver<List<Serial>> observer);
+
     void add(Serial serial, DisposableCompletableObserver observer);
+
+    void update(Serial serial, DisposableCompletableObserver observer);
+
+    void delete(Serial serial, DisposableCompletableObserver observer);
+
+    void getById(Long serialId, DisposableMaybeObserver<Serial> observer);
 
 }
